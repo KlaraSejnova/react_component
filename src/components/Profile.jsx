@@ -3,7 +3,7 @@ import "./Profile.css";
 import React, { useState } from "react";
 
 export const Profile = () => {
-  const [userData, setArticleState] = React.useState(user);
+  const [userData] = React.useState(user);
   return (
     <div className="profile">
       {userData &&
