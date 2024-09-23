@@ -1,8 +1,17 @@
 import "./App.css";
 import { Profile } from "./components/Profile";
+import user from "../data/user.json";
 
 const App = () => {
-  return <Profile></Profile>;
+  return (
+    <Profile
+      username={user.username}
+      tag={user.tag}
+      location={user.location}
+      avatar={user.avatar}
+      stats={user.stats}
+    ></Profile>
+  );
 };
 
 export default App;
