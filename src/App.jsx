@@ -1,8 +1,8 @@
-import './App.css'
+import "./App.css";
+import { Profile } from "./components/Profile";
 
 const App = () => {
-return (
-  <div>Zde budou přidány vaše nové komponenty</div>
-)}
+  return <Profile></Profile>;
+};
 
-export default App
+export default App;
